@@ -1,151 +1,79 @@
-# a = 36/4
-# print(a)
-# output 9.0
+# grocery_list = ["flour","cheese","carrots"]
+# print (grocery_list)
 
-# a = 0%26
-# print(a)
-# output 0
+# names_list = ["rahul", "shivam", "kavay", "ashish", "rohit"]
+# print (names_list)
+# print (type(names_list))
 
-# x = 10
-# y = 50
-# if (x ** 2 > 100 and y < 100):
-#     print(x,y)
-# output none
+# banks_list = ["Kotak", "HDFC", "RBL", "SBI", "Bank of Baroda"]
+# print (banks_list)
+# print (type(banks_list))
 
-# a = [10, 20]
-# b = a
-# b += [30, 40]
-# print(a)
-# print(b)
-# output [10, 20, 30, 40]
-# [10, 20, 30, 40]
+# marks_list = [70, 80, 75, 65, 68]
+# print (marks_list)   
+# print (type(marks_list))
+# rature_list)
+# temperature_list = [21.1, 24.3, 19, 25, 17, 18, 23]
+# print (tempe
+
+# mixed_list = ["rahul", 12, 9.0, "kaavay", "shivam", 1]
+# print (type(mixed_list))
+
+# names_list = ["annu", "shivam", "deepa", "pooja", "rupa"]
+# print (names_list[1])
+
+# names_list = ["annu", "shivam", "deepa", "pooja", "rupa"]
+# print (names_list[0]) # se "annu" print hoga
+# print (names_list[4]) # se "rupa" print hoga
+# print (names_list[5]) # error list index out of range
+
+# names_list = "abhishek"
+# print (names_list)
+
+# names_list="rishabh"
+# print (names_list)
+
+# names_list = ["annu", "shivam", "deepa", "pooja", "rupa"]
+# print (len(names_list))
+
+# names_list = ["annu", "shivam", "deepa", "pooja", "rupa"]
+# print (names_list)
+# names_list.append("dhruv")
+# print ("length of the list is ", len(names_list))
+# print (names_list)
+
+# names_list = ["annu", "shivam", "deepa", "pooja", "rupa"]
+# names_list.append("alok")
+# print ("length of the list is ", len(names_list))
+# print (names_list)
+
+# names_list = ["annu", "shivam", "deepa", "pooja", "rupa", "dhruv", "alok"]
+# names_list.pop()
+# print ("length of the list is ", len(names_list))
+# print (names_list)
+
+# names_list = ["annu", "shivam", "deepa", "pooja", "rupa", "dhruv", "alok"]
+# names_list.pop()
+# print ("length of the list is ", len(names_list))
+# print (names_list)
+
+# names_list = ["annu", "shivam", "deepa", "pooja", "rupa", "dhruv", "alok"]
+# print ("length of the list is ", len(names_list), names_list)
+# names_list.pop(2)
+# print ("length of the list is ", len(names_list), names_list)
+# names_list.pop(2)
+# print ("length of the list is ", len(names_list), names_list)
+
+# names_list = ["annu", "shivam", "deepa", "pooja", "rupa", "dhruv", "alok"]
+# print("shivam" in names_list)
+# print("imtiyaz" in names_list)
 
 
-# x = 100
-# y = 50
-# print(x and y)
-# output 50
 
-# x = 6
-# y = 2
-# print(x ** y)
-# print(x // y)
-# output 36 
-# 3
 
-# a=-18 // 4
-# print(a)
-# output -5
 
-# print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
-# output false true true true
 
-# print(10-4 * 2)
-# output 2
 
-# y = 10
-# x = y +=2
-# print(x)
-# output invalid syntax
 
-# a = 4
-# b = 11
-# print(a | b)
-# print(a >> 2)
-# output 15
-# 1
-
-# print(2 ** 3 ** 2)
-# output 512
-
-# print(2 * 3 ** 3 * 4)
-# output 216
-
-# X=2
-# y=4
-# print (X^y)
-# print (X**y)
-# print (X^^y)
-# output syntax error : invalid syntax
-
-# X=2
-# y=4
-# print (X^y)
-# print (X**y)
-# output 6
-# 16
-
-# precedence in python
-# i) Parentheses
-# ii) Exponential
-# iii) Multiplication
-# iv) Division
-# v) Addition
-# vi) Subtraction
-
-# print(22 % 3)
-# output 1
-
-# a="5"
-# b="6"
-# print(a+b)
-# print(a-b)
-# output 56
-# type error
-
-# Operators with the same precedence are evaluated in which manner?
-# a) Left to Right
-# b) Right to Left
-# c) Can’t say
-# d) None of the mentioned
-# output a
-
-# print(3*1**3)
-# output 3
-
-# a = 4/(3*(2-1))
-# b = 4/3*(2-1)
-# print(a is b)
-# true
-
-# print(4 + 3 % 5)
-# output 7
-
-# A = 16 
-# B = 15 
-# print(A % B // A)
-# output 1
-# 0
-
-# Which of the following operators has its associativity from right to left?
-# a) +
-# b) //
-# c) %
-# d) **
-
-# x = int(43.55+2/2)
-# print(x)
-# output 44
-
-# print(2+4.00, 2**4.0)
-# output 6.0 16.0
-
-# print (2**(3**2))
-# print ((2**3)**2)
-# print (2**3**2)
-# output 512, 64, 512
-
-# print(8/4/2, 8/(4/2))
-# output 1.0 4.0
-
-# print(float(22//3+3/3))
-# output 8.0
-
-# print((4.00/(2.0+2.0)))
-# output 1.0
-
-# X = 2+9*((3*12)-8)/10
-# print(X)
-# output 27.2
 
 
